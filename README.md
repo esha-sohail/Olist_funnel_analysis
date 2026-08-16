@@ -100,3 +100,9 @@ Brazilian-Ecommerce-Funnel-Analysis/
 │   └── dashboard_preview.png
 │
 └── README.md
+ ```
+## 👩‍💻 Author
+
+Esha Sohail
+
+Data Analyst | Data Scientist
