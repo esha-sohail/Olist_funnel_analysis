@@ -1,100 +1,102 @@
-# Olist_funnel_analysis
 # 🇧🇷 Brazilian E-Commerce Funnel Analysis
 
 ## End-to-End Data Analytics Project | PostgreSQL + Power BI
 
-An end-to-end data analytics project analyzing the **Olist Brazilian E-Commerce dataset** to understand order progression, fulfillment performance, delivery reliability, customer satisfaction, and repeat purchasing behavior.
+An end-to-end analysis of the **Olist Brazilian E-Commerce dataset** focused on order funnel performance, delivery operations, customer satisfaction, and customer retention.
 
-The project combines **PostgreSQL data analysis, funnel analysis, customer behavior analysis, and Power BI dashboarding** to translate raw e-commerce data into actionable business insights.
-
----
-
-## 📌 Business Problem
-
-E-commerce businesses need to understand more than just how many orders they receive.
-
-The key questions addressed in this project are:
-
-- How efficiently do orders progress through the fulfillment lifecycle?
-- Where does the largest operational drop-off occur?
-- How long does each fulfillment stage take?
-- What percentage of orders are delivered on time?
-- How does delivery performance relate to customer satisfaction?
-- How significant is customer dissatisfaction?
-- How strong is customer retention?
-- What business opportunities can be identified from the data?
-
-Because the Olist dataset does not contain website visits, browsing sessions, product views, or cart events, a traditional **visitor → cart → checkout → purchase funnel** cannot be measured.
-
-Therefore, this project uses an **Order Lifecycle Funnel**:
-
-> **Order Placed → Approved → Shipped → Delivered → Reviewed**
+The project uses **PostgreSQL for data analysis** and **Power BI for interactive visualization and business intelligence**.
 
 ---
 
-# 🎯 Project Objectives
+## 🎯 Business Objective
 
-1. Analyze the end-to-end order lifecycle.
-2. Measure conversion and drop-off between funnel stages.
-3. Identify operational bottlenecks.
-4. Analyze delivery performance and delays.
-5. Measure customer satisfaction using review scores.
-6. Investigate the relationship between delivery performance and customer satisfaction.
-7. Analyze repeat purchasing and customer retention.
-8. Develop a recruiter-ready Power BI dashboard.
-9. Translate analytical findings into actionable business recommendations.
+The objective of this project is to understand the complete order lifecycle and identify opportunities to improve operational performance and customer experience.
 
----
+### Funnel
 
-# 🛠️ Tools & Technologies
+**Order → Approved → Shipped → Delivered → Reviewed**
 
-| Tool | Purpose |
-|---|---|
-| **PostgreSQL** | Data cleaning, transformation, aggregation & analysis |
-| **SQL** | Funnel analysis, KPIs, segmentation & business questions |
-| **Power BI** | Interactive dashboard & data visualization |
-| **DAX** | Dashboard measures and KPIs |
-| **Git & GitHub** | Version control & project documentation |
-| **Microsoft Word** | Analytical insight report |
+The analysis focuses on:
+
+- Funnel conversion and drop-offs
+- Order processing time
+- Delivery performance
+- Customer satisfaction
+- Repeat purchasing and retention
+- Business opportunities and recommendations
 
 ---
 
-# 📂 Project Structure
+## 🛠️ Tools & Skills
+
+**PostgreSQL · SQL · Power BI · DAX · Data Cleaning · Funnel Analysis · Customer Analytics · KPI Development · Data Visualization · Business Intelligence**
+
+---
+
+## 📊 Key Results
+
+| KPI | Result |
+|---|---:|
+| Total Orders | **99,441** |
+| Unique Customers | **96,096** |
+| Order → Delivery Rate | **97.02%** |
+| On-Time Delivery | **91.89%** |
+| Average Review Score | **4.09 / 5** |
+| Repeat Customer Rate | **3.12%** |
+
+---
+
+## 🔎 Key Insights
+
+- **97.02%** of orders reached customer delivery, indicating strong overall fulfillment performance.
+- **91.89%** of delivered orders arrived on time.
+- **Shipment → Delivery** was the largest time-consuming stage, averaging **223.94 hours (~9.3 days)**.
+- Late orders averaged **2.57/5** compared with **4.29/5** for on-time orders.
+- **46.24%** of reviewed late orders received a 1-star rating compared with **6.62%** for on-time orders.
+- Only **3.12%** of customers were repeat buyers, highlighting a significant customer-retention opportunity.
+
+### 💡 Key Takeaway
+
+> The marketplace demonstrates strong operational fulfillment, but improving delivery reliability and converting one-time buyers into repeat customers represent major opportunities for growth.
+
+---
+
+## 📈 Power BI Dashboard
+
+The interactive dashboard provides insights into:
+
+- Order Funnel & Conversion
+- Delivery Performance
+- Customer Satisfaction
+- Review Analysis
+- Customer Retention
+- Key Business KPIs
+
+### Dashboard Preview
+
+_Add your Power BI dashboard screenshot here._
+
+---
+
+## 📁 Project Structure
 
 ```text
-brazilian-ecommerce-funnel-analysis/
-│
-├── README.md
-│
-├── data/
-│   └── README.md
+Brazilian-Ecommerce-Funnel-Analysis/
 │
 ├── sql/
-│   ├── 01_data_profiling.sql
-│   ├── 02_customer_analysis.sql
-│   ├── 03_order_funnel.sql
-│   ├── 04_payment_analysis.sql
-│   ├── 05_delivery_analysis.sql
-│   ├── 06_review_analysis.sql
-│   └── 07_final_funnel_metrics.sql
+│   ├── data_profiling.sql
+│   ├── funnel_analysis.sql
+│   ├── delivery_analysis.sql
+│   ├── customer_analysis.sql
+│   └── review_analysis.sql
 │
 ├── dashboard/
-│   ├── Brazilian_Ecommerce_Funnel_Dashboard.pbix
-│   └── dashboard_preview.png
+│   └── Brazilian_Ecommerce_Funnel.pbix
 │
 ├── report/
-│   └── Brazilian_Ecommerce_Funnel_Analysis_Insight_Report.docx
+│   └── Funnel_Analysis_Insight_Report.docx
 │
-├── insights/
-│   └── key_findings.md
+├── screenshots/
+│   └── dashboard_preview.png
 │
-└── screenshots/
-    ├── executive_overview.png
-    ├── funnel_analysis.png
-    └── delivery_customer_satisfaction.png
-| **Microsoft Word** | Analytical insight report |
-
----
-
-# 📂 Project Structure
-
+└── README.md
