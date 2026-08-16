@@ -92,8 +92,10 @@ brazilian-ecommerce-funnel-analysis/
     ├── executive_overview.png
     ├── funnel_analysis.png
     └── delivery_customer_satisfaction.png
+---
 
-🎯 Final Takeaway
+
+##🎯 Final Takeaway
 
 The analysis reveals a marketplace with strong operational fulfillment but a significant customer-retention opportunity.
 
@@ -104,8 +106,10 @@ Late orders receive substantially lower ratings and are approximately 7× more l
 At the same time, only 3.12% of customers are repeat buyers.
 
 Therefore, improving delivery reliability and the post-purchase experience represents a potentially important path toward improving customer loyalty and long-term marketplace value.
+---
 
-📬 Contact
+
+##📬 Contact
 
 Esha Sohail
 Data Scientist | Data Analyst
