@@ -95,21 +95,7 @@ brazilian-ecommerce-funnel-analysis/
 ---
 
 
-##🎯 Final Takeaway
 
-The analysis reveals a marketplace with strong operational fulfillment but a significant customer-retention opportunity.
-
-The most important finding is the relationship between delivery reliability and customer satisfaction:
-
-Late orders receive substantially lower ratings and are approximately 7× more likely to receive a 1-star review.
-
-At the same time, only 3.12% of customers are repeat buyers.
-
-Therefore, improving delivery reliability and the post-purchase experience represents a potentially important path toward improving customer loyalty and long-term marketplace value.
----
-
-
-##📬 Contact
 
 Esha Sohail
 Data Scientist | Data Analyst
