@@ -92,10 +92,9 @@ brazilian-ecommerce-funnel-analysis/
     ├── executive_overview.png
     ├── funnel_analysis.png
     └── delivery_customer_satisfaction.png
+| **Microsoft Word** | Analytical insight report |
+
 ---
 
+# 📂 Project Structure
 
-
-
-Esha Sohail
-Data Scientist | Data Analyst
