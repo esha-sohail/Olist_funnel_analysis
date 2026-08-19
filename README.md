@@ -86,10 +86,12 @@ Brazilian-Ecommerce-Funnel-Analysis/
 ├── sql/
 │   ├── data_profiling.sql
 │   ├── funnel_analysis.sql
-│   ├── delivery_analysis.sql
 │   ├── customer_analysis.sql
-│   └── review_analysis.sql
-│
+│   ├─ review_analysis.sql
+│   ├── order_value.sql
+│   ├── order_payments_analysis.sql
+│   ├── items_per_order_analysis.sql
+
 ├── dashboard/
 │   └── Brazilian_Ecommerce_Funnel.pbix
 │
