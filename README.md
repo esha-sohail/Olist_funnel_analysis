@@ -74,7 +74,7 @@ The interactive dashboard provides insights into:
 
 ### Dashboard Preview
 
-_._
+_._![Olist E-Commerce Funnel Dashboard](screenshots/funnel_dashboard.png
 
 ---
 
