@@ -74,7 +74,7 @@ The interactive dashboard provides insights into:
 
 ### Dashboard Preview
 
-_Add your Power BI dashboard screenshot here._
+_._
 
 ---
 
