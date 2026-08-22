@@ -1,4 +1,4 @@
-# 🇧🇷 Brazilian E-Commerce Funnel Analysis
+# Olist Funnel Analysis
 
 ## End-to-End Data Analytics Project | PostgreSQL + Power BI
 
@@ -8,7 +8,7 @@ The project uses **PostgreSQL for data analysis** and **Power BI for interactive
 
 ---
 
-## 🎯 Business Objective
+##  Business Objective
 
 The objective of this project is to understand the complete order lifecycle and identify opportunities to improve operational performance and customer experience.
 
@@ -27,7 +27,7 @@ The analysis focuses on:
 
 ---
 
-## 🛠️ Tools & Skills
+##  Tools & Skills
 
 **PostgreSQL · SQL · Power BI · DAX · Data Cleaning · Funnel Analysis · Customer Analytics · KPI Development · Data Visualization · Business Intelligence**
 
@@ -46,7 +46,7 @@ The analysis focuses on:
 
 ---
 
-## 🔎 Key Insights
+##  Key Insights
 
 - **97.02%** of orders reached customer delivery, indicating strong overall fulfillment performance.
 - **91.89%** of delivered orders arrived on time.
@@ -74,7 +74,7 @@ The interactive dashboard provides insights into:
 
 ### Dashboard Preview
 
-_._![Olist E-Commerce Funnel Dashboard](screenshots/funnel_dashboard.png
+_._![Olist E-Commerce Funnel Dashboard](Screenshots/funnel_dashboard.png
 
 ---
 
@@ -103,7 +103,7 @@ Brazilian-Ecommerce-Funnel-Analysis/
 │
 └── README.md
  ```
-## 👩‍💻 Author
+##  Author
 
 Esha Sohail
 
