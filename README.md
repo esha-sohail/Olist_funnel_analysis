@@ -83,7 +83,7 @@ _._![Olist E-Commerce Funnel Dashboard](Screenshots/funnel_dashboard.png
 ```text
 Brazilian-Ecommerce-Funnel-Analysis/
 │
-├── sql/
+├── SQL
 │   ├── data_profiling.sql
 │   ├── funnel_analysis.sql
 │   ├── customer_analysis.sql
@@ -92,14 +92,14 @@ Brazilian-Ecommerce-Funnel-Analysis/
 │   ├── order_payments_analysis.sql
 │   ├── items_per_order_analysis.sql
 
-├── dashboard/
-│   └── Brazilian_Ecommerce_Funnel.pbix
+├── Dashboard
+│   └──FUNNEL_DASHBOARD.pbix
 │
-├── report/
-│   └── Funnel_Analysis_Insight_Report.docx
+├── Report
+│   └── Brazilian_Ecommerce_Funnel_Analysis_Insight_Report.docx
 │
-├── screenshots/
-│   └── dashboard_preview.png
+├── Screenshots
+│   └── funnel_dashboard.png
 │
 └── README.md
  ```
